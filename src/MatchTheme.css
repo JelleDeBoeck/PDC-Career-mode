@@ -1,0 +1,43 @@
+/* Match scoreboard: same midnight / electric blue identity. */
+
+.match501-screen {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(17, 159, 243, 0.12), transparent 60%),
+    #060a14;
+}
+
+.match501-player {
+  background: rgba(16, 28, 52, 0.88);
+  border-color: #273c5d;
+}
+
+.match501-active {
+  border-color: #119ff3;
+  box-shadow: 0 0 26px rgba(17, 159, 243, 0.16);
+}
+
+.match501-identity span,
+.match501-turn {
+  color: #119ff3;
+}
+
+.match501-rounds strong,
+.match501-vs,
+.match501-status {
+  color: #f8fbff;
+}
+
+.match501-send {
+  background: #119ff3;
+  color: #06111e;
+}
+
+.match501-winner h2 {
+  color: #f8fbff;
+  text-shadow: 0 0 32px rgba(17, 159, 243, 0.25);
+}
+
+.match501-winner-label,
+.match501-winner p {
+  color: #a3b4ce;
+}
